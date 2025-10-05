@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://websitedemos.net/communities-02/",
+      "url": "https://websitedemos.net/communities-02/",
+      "name": "Home - Charity",
+      "isPartOf": { "@id": "https://websitedemos.net/communities-02/#website" },
+      "about": {
+        "@id": "https://websitedemos.net/communities-02/#organization"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://websitedemos.net/communities-02/#primaryimage"
+      },
+      "image": {
+        "@id": "https://websitedemos.net/communities-02/#primaryimage"
+      },
+      "thumbnailUrl": "https://websitedemos.net/communities-02/wp-content/uploads/sites/853/2021/05/about-01-free-img.jpg",
+      "datePublished": "2021-05-14T08:16:46+00:00",
+      "dateModified": "2025-06-11T09:02:39+00:00",
+      "breadcrumb": {
+        "@id": "https://websitedemos.net/communities-02/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": ["https://websitedemos.net/communities-02/"]
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://websitedemos.net/communities-02/#primaryimage",
+      "url": "https://websitedemos.net/communities-02/wp-content/uploads/sites/853/2021/05/about-01-free-img.jpg",
+      "contentUrl": "https://websitedemos.net/communities-02/wp-content/uploads/sites/853/2021/05/about-01-free-img.jpg",
+      "width": 571,
+      "height": 800
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://websitedemos.net/communities-02/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home" }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://websitedemos.net/communities-02/#website",
+      "url": "https://websitedemos.net/communities-02/",
+      "name": "Charity",
+      "description": "Don&#039;t turn away, Give today!",
+      "publisher": {
+        "@id": "https://websitedemos.net/communities-02/#organization"
+      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://websitedemos.net/communities-02/?s={search_term_string}"
+          },
+          "query-input": {
+            "@type": "PropertyValueSpecification",
+            "valueRequired": true,
+            "valueName": "search_term_string"
+          }
+        }
+      ],
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://websitedemos.net/communities-02/#organization",
+      "name": "Charity",
+      "url": "https://websitedemos.net/communities-02/",
+      "logo": {
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "@id": "https://websitedemos.net/communities-02/#/schema/logo/image/",
+        "url": "https://websitedemos.net/communities-02/wp-content/uploads/sites/853/2021/05/logo-regular-free-img.png",
+        "contentUrl": "https://websitedemos.net/communities-02/wp-content/uploads/sites/853/2021/05/logo-regular-free-img.png",
+        "width": 156,
+        "height": 40,
+        "caption": "Charity"
+      },
+      "image": {
+        "@id": "https://websitedemos.net/communities-02/#/schema/logo/image/"
+      }
+    }
+  ]
+}
